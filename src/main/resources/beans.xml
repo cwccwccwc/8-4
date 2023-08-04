@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    map <String , Object>-->
+<!--    map  "s" Student-->
+    <bean id="s" class="com.yc.spring.test1.Student">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+
+
+</beans>
